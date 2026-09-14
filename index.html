@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Apron Bar Co. — Craft Cocktail Bar Services</title>
+  <meta name="description" content="Black Apron Bar Co. crafts elevated cocktail experiences — bar supply, private bartending, and full event creation." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+
+  <!-- ===== Nav ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#top" class="wordmark">
+        <span class="wordmark-main">Black Apron</span>
+        <span class="wordmark-sub">Bar Co.</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#chit" class="nav-link">The Chit</a>
+        <a href="#contact" class="nav-link nav-link--cta">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow">Est. Craft &middot; Full Bar Services</p>
+      <h1 class="hero-title">Elevated cocktails.<br>Zero pretense.</h1>
+      <p class="hero-sub">Bar supply, private bartending, and full event creation — built by people who take the drink seriously and nothing else too seriously.</p>
+      <div class="hero-actions">
+        <a href="#services" class="btn btn-primary">Explore Services</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+      <span class="scroll-cue-line"></span>
+    </a>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-media" aria-hidden="true">
+        <div class="about-media-frame">
+          <span class="about-media-mark">BA</span>
+        </div>
+      </div>
+
+      <div class="about-copy fade-up">
+        <p class="section-eyebrow">Who We Are</p>
+        <h2 class="section-title">The apron comes off, the craft doesn't.</h2>
+        <p>
+          Black Apron Bar Co. was built on a simple idea: a great drink shouldn't
+          require a lecture. We bring real bartending craft — balanced builds,
+          proper technique, honest ingredients — to bars, backyards, and everything
+          in between, without the stiff-collar attitude that usually comes with it.
+        </p>
+        <p>
+          Every pour is deliberate. Every event is run like the details matter,
+          because they do. Whether we're stocking your home bar or running service
+          for two hundred guests, the standard doesn't move.
+        </p>
+        <p class="about-signoff">— The Black Apron Bar Co. team</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="section services" id="services">
+    <div class="section-inner">
+      <p class="section-eyebrow center">What We Do</p>
+      <h2 class="section-title center">Three ways to work with us</h2>
+
+      <div class="services-grid">
+        <article class="service-card fade-up">
+          <span class="service-index">01</span>
+          <h3 class="service-title">Bar Supply</h3>
+          <p class="service-desc">
+            Spirits, mixers, glassware, ice, and tools — sourced, stocked, and
+            delivered so your bar is ready before your guests are.
+          </p>
+          <a href="#contact" class="service-link" data-subject="Bar Supply">Inquire about Bar Supply &rarr;</a>
+        </article>
+
+        <article class="service-card fade-up">
+          <span class="service-index">02</span>
+          <h3 class="service-title">Private Bartending</h3>
+          <p class="service-desc">
+            Professional bartenders for dinner parties, milestone birthdays, and
+            everything worth doing properly. Custom menus available.
+          </p>
+          <a href="#contact" class="service-link" data-subject="Private Bartending">Inquire about Private Bartending &rarr;</a>
+        </article>
+
+        <article class="service-card fade-up">
+          <span class="service-index">03</span>
+          <h3 class="service-title">Event Creation</h3>
+          <p class="service-desc">
+            Full-service bar design for weddings and larger gatherings — concept,
+            menu, staffing, and execution, start to finish.
+          </p>
+          <a href="#contact" class="service-link" data-subject="Event Creation">Inquire about Event Creation &rarr;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== The Chit ===== -->
+  <section class="section chit" id="chit">
+    <div class="section-inner chit-inner fade-up">
+      <p class="section-eyebrow center">The Newsletter</p>
+      <h2 class="section-title center">The Chit</h2>
+      <p class="chit-sub">
+        Your tab, kept honest. Seasonal recipes, new menus, and first word on
+        events — dropped in your inbox, never overpoured.
+      </p>
+
+      <form class="chit-form" name="the-chit" method="POST" data-netlify="true" netlify-honeypot="chit-hp">
+        <input type="hidden" name="form-name" value="the-chit" />
+        <div class="hp-field">
+          <label for="chit-hp">Leave this field empty</label>
+          <input type="text" id="chit-hp" name="chit-hp" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <label for="chit-email" class="sr-only">Email address</label>
+        <input
+          type="email"
+          id="chit-email"
+          name="email"
+          class="chit-input"
+          placeholder="you@email.com"
+          required
+        />
+        <button type="submit" class="btn btn-primary chit-submit">Open a Tab</button>
+      </form>
+      <p class="chit-fine">No spam. Unsubscribe whenever. Just the good stuff.</p>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-copy fade-up">
+        <p class="section-eyebrow">Let's Talk</p>
+        <h2 class="section-title">Tell us what you're planning.</h2>
+        <p>
+          Whether it's a fully stocked bar for Saturday or a wedding six months
+          out, send the details and we'll get back to you within a day or two.
+        </p>
+        <div class="contact-details">
+          <a href="mailto:hello@blackapronbarco.com" class="contact-detail">hello@blackapronbarco.com</a>
+        </div>
+      </div>
+
+      <form class="contact-form fade-up" name="contact" method="POST" data-netlify="true" netlify-honeypot="contact-hp">
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="hp-field">
+          <label for="contact-hp">Leave this field empty</label>
+          <input type="text" id="contact-hp" name="contact-hp" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-row">
+          <label for="subject">Interested In</label>
+          <select id="subject" name="subject">
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Bar Supply">Bar Supply</option>
+            <option value="Private Bartending">Private Bartending</option>
+            <option value="Event Creation">Event Creation</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="wordmark footer-wordmark">
+        <span class="wordmark-main">Black Apron</span>
+        <span class="wordmark-sub">Bar Co.</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#chit">The Chit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> Black Apron Bar Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
