@@ -11,7 +11,7 @@ No build step, no framework — just `index.html`, `css/style.css`, and
 
 - **About copy** (`index.html`, `#about` section) is placeholder text —
   swap in your real founder/company story.
-- **Contact email** — currently `hello@blackapronbarco.com`; update the
+- **Contact email** — currently `cam@blackapronbarco.com`; update the
   `mailto:` link and the display text in the `#contact` section.
 - **About photo** — the About section currently shows a plain monogram
   placeholder (`.about-media-frame`). Drop a real photo into `images/` and
