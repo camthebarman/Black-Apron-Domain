@@ -1,11 +1,12 @@
 # Black Apron Bar Co.
 
-Marketing site for **blackapronbarco.com** — a single-page, static site with
-four sections: About, Services (Bar Supply / Private Bartending / Event
-Creation), The Chit (newsletter signup), and Contact.
+Marketing site for **blackapronbarco.com** — a static site with a homepage
+(About, Services, The Chit newsletter signup, and Contact) plus a dedicated
+page per service: `bar-supply.html`, `private-bartending.html`, and
+`event-creation.html`.
 
-No build step, no framework — just `index.html`, `css/style.css`, and
-`js/main.js`. Open `index.html` directly in a browser to preview locally.
+No build step, no framework — just plain HTML pages sharing `css/style.css`
+and `js/main.js`. Open `index.html` directly in a browser to preview locally.
 
 ## Personalize before launch
 
@@ -16,6 +17,16 @@ No build step, no framework — just `index.html`, `css/style.css`, and
 - **About photo** — the About section currently shows a plain monogram
   placeholder (`.about-media-frame`). Drop a real photo into `images/` and
   swap the placeholder `<div>` for an `<img>` tag.
+- **Photography** — the homepage hero and the three service images
+  (`images/hero-cocktail.jpg`, `images/bar-supply.jpg`,
+  `images/private-bartending.jpg`, `images/event-creation.jpg`) are free
+  stock photos from Unsplash (no attribution required, but swap them for
+  real photos of your own bar/events/product whenever you have them —
+  same filenames, just replace the files).
+- **Service page copy** (`bar-supply.html`, `private-bartending.html`,
+  `event-creation.html`) is written to match what you described — review
+  it for accuracy (menu specifics, staffing minimums, pricing, etc. aren't
+  included and should be added or handled during the inquiry).
 
 ## Forms
 
