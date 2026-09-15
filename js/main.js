@@ -45,3 +45,10 @@ document.querySelectorAll('.service-link[data-subject]').forEach((link) => {
     if (select) select.value = subject;
   });
 });
+
+// Prefill contact subject from a ?subject= query param (used by service detail pages)
+const subjectParam = new URLSearchParams(window.location.search).get('subject');
+if (subjectParam) {
+  const select = document.getElementById('subject');
+  if (select) select.value = subjectParam;
+}
