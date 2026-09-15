@@ -1,9 +1,10 @@
 # Black Apron Bar Co.
 
 Marketing site for **blackapronbarco.com** — a static site with a homepage
-(About, Services, The Chit newsletter signup, and Contact) plus a dedicated
-page per service: `bar-supply.html`, `private-bartending.html`, and
-`event-creation.html`.
+(About, Services, a Chit signup teaser, and Contact) plus a dedicated page
+per service (`bar-supply.html`, `private-bartending.html`,
+`event-creation.html`) and a standalone page for the newsletter,
+`chit.html`.
 
 No build step, no framework — just plain HTML pages sharing `css/style.css`
 and `js/main.js`. Open `index.html` directly in a browser to preview locally.

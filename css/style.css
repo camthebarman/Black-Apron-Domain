@@ -19,6 +19,7 @@
 
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Jost", "Helvetica Neue", Arial, sans-serif;
+  --mono: "JetBrains Mono", "Courier New", monospace;
 
   --max: 1140px;
   --pad: clamp(20px, 5vw, 64px);
@@ -728,6 +729,73 @@ img { max-width: 100%; display: block; }
 .page-cta p {
   max-width: 46ch;
   margin: 0 auto 24px !important;
+}
+
+/* ===================================================
+   The Chit (standalone page)
+=================================================== */
+
+.ticket-hero {
+  padding: 150px var(--pad) 64px;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201, 162, 74, 0.10), transparent 60%),
+    var(--bg);
+}
+
+.ticket-panel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ticket-rule {
+  border: none;
+  border-top: 1px dashed var(--line-strong);
+  margin: 26px 0;
+}
+
+.ticket-title {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 8vw, 4rem);
+  letter-spacing: 0.12em;
+  color: var(--text);
+  margin: 0;
+}
+
+.ticket-hook {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+  line-height: 1.5;
+  color: var(--text);
+  max-width: 30ch;
+  margin: 30px auto 0;
+}
+
+.ticket-quote {
+  text-align: left;
+  border-left: 2px solid var(--brass-dim);
+  padding: 4px 0 4px 22px;
+  margin: 2em 0;
+  color: var(--text);
+  font-style: normal;
+}
+.ticket-quote p {
+  margin-bottom: 0 !important;
+}
+
+.ticket-signoff {
+  font-family: var(--mono);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--brass);
+  margin-top: 2em !important;
+}
+
+.chit-page-form {
+  margin: 48px 0 8px;
 }
 
 /* ===================================================
