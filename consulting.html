@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulting — Black Apron Bar Co.</title>
+  <meta name="description" content="Bar and beverage operations consulting — tech, operations, and growth — from Black Apron Bar Co." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+
+  <!-- ===== Nav ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="index.html" class="wordmark">
+        <span class="wordmark-main">Black Apron</span>
+        <span class="wordmark-sub">Bar Co.</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="chit.html" class="nav-link">The Chit</a>
+        <a href="index.html#contact" class="nav-link nav-link--cta">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Page Hero ===== -->
+  <section class="page-hero">
+    <img src="images/consulting.jpg" alt="A cozy bar and coffee counter with chalkboard menus, someone working at a table nearby" class="page-hero-bg" width="1400" height="900" loading="eager" />
+    <div class="page-hero-inner">
+      <a href="index.html#services" class="back-link">&larr; Back to Services</a>
+      <p class="eyebrow" style="margin-bottom:14px;">Services / 03</p>
+      <h1 class="page-hero-title">Consulting</h1>
+    </div>
+  </section>
+
+  <!-- ===== Content ===== -->
+  <section class="page-content">
+    <div class="page-content-inner">
+      <p>
+        Not every bar problem gets fixed with a better cocktail. Sometimes
+        it's the software, sometimes it's the schedule, sometimes it's a
+        menu quietly losing you money every shift. We consult on the full
+        operation — not just what's in the glass.
+      </p>
+      <p>
+        Whether you're opening a new program, fixing a bar that's bleeding
+        margin, or just want a second set of eyes on how things run, we
+        work alongside your team instead of handing you a binder and
+        disappearing.
+      </p>
+
+      <h2>Where We Dig In</h2>
+      <div class="tabs">
+        <div class="tab-nav" role="tablist">
+          <button type="button" class="tab-btn is-active" data-tab="tech" role="tab" aria-selected="true">Tech</button>
+          <button type="button" class="tab-btn" data-tab="operations" role="tab" aria-selected="false">Operations</button>
+          <button type="button" class="tab-btn" data-tab="growth" role="tab" aria-selected="false">Growth</button>
+        </div>
+
+        <div class="tab-panel is-active" data-tab-panel="tech">
+          <p>
+            POS systems that actually fit how your bar runs, inventory
+            and cost-tracking software that catches shrinkage before it
+            costs you a shift's profit, scheduling tools that stop the
+            Sunday-night group text. We help you pick the stack, set it
+            up, and train your team to actually use it.
+          </p>
+        </div>
+
+        <div class="tab-panel" data-tab-panel="operations">
+          <p>
+            Pour cost, labor cost, prep lists, opening and closing
+            checklists, vendor relationships — the stuff that decides
+            whether a bar is profitable or just busy. We build the SOPs,
+            tighten the workflows, and train your staff so the bar runs
+            the same whether you're behind it or not.
+          </p>
+        </div>
+
+        <div class="tab-panel" data-tab-panel="growth">
+          <p>
+            Menu development, pricing strategy, and positioning that gets
+            your bar noticed for the right reasons. Whether you're
+            launching a new program, relaunching an old one, or just
+            trying to grow margins without raising prices across the
+            board, we build the plan.
+          </p>
+        </div>
+      </div>
+
+      <h2>How We Work</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Audit &amp; Assessment</h3>
+          <p>A full look at your current operation — menu, costs, systems, and staff — before we recommend a single change.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Custom Roadmap</h3>
+          <p>A prioritized plan built around your bar, your budget, and your timeline, not a generic template.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Hands-On Training</h3>
+          <p>We train your team directly, so the changes stick after we're gone.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Ongoing Support</h3>
+          <p>Check-ins and adjustments as the program runs, not a one-and-done report.</p>
+        </div>
+      </div>
+
+      <div class="page-cta">
+        <h2>Ready to tighten up your operation?</h2>
+        <p>Tell us what's not working, and we'll build a plan to fix it.</p>
+        <a href="index.html?subject=Consulting#contact" class="btn btn-primary">Get a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="wordmark footer-wordmark">
+        <span class="wordmark-main">Black Apron</span>
+        <span class="wordmark-sub">Bar Co.</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="chit.html">The Chit</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> Black Apron Bar Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

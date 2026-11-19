@@ -2,9 +2,10 @@
 
 Marketing site for **blackapronbarco.com** — a static site with a homepage
 (About, Services, a Chit signup teaser, and Contact) plus a dedicated page
-per service (`bar-supply.html`, `private-bartending.html`,
-`event-creation.html`) and a standalone page for the newsletter,
-`chit.html`.
+per service (`bar-beverage.html`, `bar-supply.html`, `consulting.html` —
+each with its own in-page tabs: Mocktail/Cocktail/Coffee, Syrups/Garnishes,
+and Tech/Operations/Growth, respectively) and a standalone page for the
+newsletter, `chit.html`.
 
 No build step, no framework — just plain HTML pages sharing `css/style.css`
 and `js/main.js`. Open `index.html` directly in a browser to preview locally.
@@ -19,15 +20,16 @@ and `js/main.js`. Open `index.html` directly in a browser to preview locally.
   placeholder (`.about-media-frame`). Drop a real photo into `images/` and
   swap the placeholder `<div>` for an `<img>` tag.
 - **Photography** — the homepage hero and the three service images
-  (`images/hero-cocktail.jpg`, `images/bar-supply.jpg`,
-  `images/private-bartending.jpg`, `images/event-creation.jpg`) are free
-  stock photos from Unsplash (no attribution required, but swap them for
-  real photos of your own bar/events/product whenever you have them —
-  same filenames, just replace the files).
-- **Service page copy** (`bar-supply.html`, `private-bartending.html`,
-  `event-creation.html`) is written to match what you described — review
-  it for accuracy (menu specifics, staffing minimums, pricing, etc. aren't
-  included and should be added or handled during the inquiry).
+  (`images/hero-cocktail.jpg`, `images/private-bartending.jpg`,
+  `images/bar-supply.jpg`, `images/consulting.jpg`) are free stock photos
+  from Unsplash (no attribution required, but swap them for real photos
+  of your own bar/events/product whenever you have them — same
+  filenames, just replace the files).
+- **Service page copy** (`bar-beverage.html`, `bar-supply.html`,
+  `consulting.html`) is written to match what you described — review it
+  for accuracy (menu specifics, staffing minimums, pricing, consulting
+  rates, etc. aren't included and should be added or handled during the
+  inquiry).
 
 ## Forms
 
