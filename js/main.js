@@ -52,3 +52,16 @@ if (subjectParam) {
   const select = document.getElementById('subject');
   if (select) select.value = subjectParam;
 }
+
+// Tabs (service detail pages)
+document.querySelectorAll('.tabs').forEach((tabs) => {
+  const buttons = tabs.querySelectorAll('.tab-btn');
+  const panels = tabs.querySelectorAll('.tab-panel');
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const target = btn.getAttribute('data-tab');
+      buttons.forEach((b) => b.classList.toggle('is-active', b === btn));
+      panels.forEach((p) => p.classList.toggle('is-active', p.getAttribute('data-tab-panel') === target));
+    });
+  });
+});
